@@ -7,7 +7,7 @@ const Auth = () => {
 
   return (
     <div>
-      <p>{isAuthenticated ? 'You are now authenticated, you can proceed' : 'You are not authenticated!'}</p>
+      <p>{isAuthenticated ? 'You are now authenticated, you can proceed' : 'You are not authenticated'}</p>
       <label>
         <input type="checkbox" onChange={toggleAuth} checked={isAuthenticated} />
         I'm not a robot
