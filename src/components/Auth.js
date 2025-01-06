@@ -1,5 +1,5 @@
 // src/Auth.js
-// src/Auth.js
+
 import React, { useContext, useEffect } from 'react';
 import { AuthContext } from './AuthContext';
 
@@ -7,7 +7,7 @@ const Auth = () => {
   const { isAuthenticated, toggleAuth } = useContext(AuthContext);
 
   useEffect(() => {
-    console.log('isAuthenticated:', isAuthenticated); // Check initial state
+    console.log('isAuthenticated:', isAuthenticated); 
   }, [isAuthenticated]);
 
   return (
